@@ -1,1 +1,25 @@
+// conacento css
+    
+<div class="“parent”">
+  <div class="“inline-block-element”">Some content here</div>
+</div>
 
+    body {
+        font-size: 3rem;
+        font-family: Trebuchet MS
+        text-align: center;
+        margin: 0;
+    }
+
+    li {display: inline-block;
+    border-radius: 4px
+    width: 50px;
+    height: 50px;
+    background-color: FF2D2D;
+    color: white;
+    padding: 10px;
+}
+
+.tab-content {display: none}
+
+.active {display:block}
