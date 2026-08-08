@@ -9,14 +9,13 @@ const letters = [
 const items = document.querySelectorAll("li");
 
 let score = 0;
-let timeLeft = 120;
+let timeLeft = 60;
 let timer;
 let gameStarted = false;
 
 let player = {
   name: "",
   institution: "",
-  initials: ""
 };
 
 function randomLetter() {
@@ -36,13 +35,12 @@ loadLetters();
 document.getElementById("startButton").addEventListener("click", () => {
 
   player.name = document.getElementById("playerName").value;
-  player.institution = document.getElementById("institution").value;
-  player.initials = document.getElementById("initials").value
+  player.institution = document.getElementById("institution").value
     .toUpperCase()
     .substring(0,3);
 
-  if (!player.initials) {
-    alert("Enter initials before starting");
+  if (!player.name) {
+    alert("Add your name for the leader board before starting");
     return;
   }
 
@@ -52,10 +50,10 @@ document.getElementById("startButton").addEventListener("click", () => {
 
 function startSequence() {
 
-  document.getElementById("message").textContent = "¡Dos minutos!";
+  document.getElementById("message").textContent = "tienes un minuto";
 
   setTimeout(() => {
-    document.getElementById("message").textContent = "Start!";
+    document.getElementById("message").textContent = "comenzar";
     beginGame();
   }, 2000);
 
@@ -65,11 +63,11 @@ function startSequence() {
 function beginGame() {
 
   score = 0;
-  timeLeft = 120;
+  timeLeft = 60;
   gameStarted = true;
 
   document.getElementById("score").textContent = score;
-  document.getElementById("timer").textContent = "2:00";
+  document.getElementById("timer").textContent = "1:00";
 
   timer = setInterval(updateTimer,1000);
 
@@ -81,8 +79,8 @@ function updateTimer() {
 
   timeLeft--;
 
-  let minutes = Math.floor(timeLeft / 60);
-  let seconds = timeLeft % 60;
+  let minutes = Math.floor(timeLeft / 30);
+  let seconds = timeLeft % 30;
 
   document.getElementById("timer").textContent =
     `${minutes}:${seconds.toString().padStart(2,"0")}`;
@@ -143,7 +141,6 @@ function saveScore() {
 
 
   scores.push({
-    initials: player.initials,
     name: player.name,
     institution: player.institution,
     score: score
@@ -182,7 +179,6 @@ function displayScores() {
     board.innerHTML += `
       <tr>
         <td>${index+1}</td>
-        <td>${player.initials}</td>
         <td>${player.score}</td>
         <td>${player.institution}</td>
       </tr>
