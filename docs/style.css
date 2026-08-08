@@ -33,11 +33,11 @@ p:not(:last-child) {
     flex: 1;
     display: flex;
     justify-content: center;
-    align items: center;
+    align-items: center;
     font-size: 0.9375rem;
     font-weight: 600;
     color: #656d7b;
-    cursor; pointer; 
+    cursor: pointer; 
     transition: color 0.5s ease-in-out;
 }
 
@@ -47,7 +47,7 @@ p:not(:last-child) {
 
 .tabs ::after{
     pointer-events: none;
-    position: absolute
+    position: absolute;
     content: "";
     z-index: 1
     inset: 0 0 1px;
@@ -61,15 +61,15 @@ p:not(:last-child) {
     transition: translate 0.5s ease-in-out;
 }
 
-.tabs:has(:checked:nth-of-type(1)) {
+.tabs:has(input:checked:nth-of-type(1)) {
     --active: 0;
 }
 
-.tabs:has(:checked:nth-of-type(2)) {
+.tabs:has(input:checked:nth-of-type(2)) {
     --active: 1;
 }
 
-.tabs:has(:checked:nth-of-type(3)) {
+.tabs:has(input:checked:nth-of-type(3)) {
     --active: 2;
 }
 
@@ -78,28 +78,30 @@ p:not(:last-child) {
     padding:1rem;
 }
 
-[class ^=*tab-content-"] {
+[class^="tab-content-"] {
     display: none;
 }
 
 .widget:has(checked:nth-of-type(1)) .tab-content-1
 .widget:has(checked:nth-of-type(1)) .tab-content-2
 .widget:has(checked:nth-of-type(1)) .tab-content-3 {
-    display: blocl; 
+    display: block; 
 }
     
 <div class="“parent”">
   <div class="“inline-block-element”">Some content here</div>
 </div>
 
-    body {
-        font-size: 3rem;
-        font-family: Trebuchet MS
-        text-align: center;
-        margin: 0;
-    }
+body {
+    font-size: 3rem;
+    font-family: "Trebuchet MS", sans-serif;
+    text-align: center;
+    margin: 0;
 
-    li {display: inline-block;
+}
+
+li {
+    display: inline-block;
     border-radius: 4px
     width: 50px;
     height: 50px;
@@ -107,7 +109,5 @@ p:not(:last-child) {
     color: white;
     padding: 10px;
 }
-
-.tab-content {display: none}
 
 .active {display:block}
