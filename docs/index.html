@@ -6,149 +6,243 @@
 
 <link rel="stylesheet" href="styles.css">
 
-<div class="center-me">
+<head>
+    <style>
+        body {
+            font-size:1.2rem;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 30px;
+        }
+
+        .tabs input[type="radio"] {
+            display: none;
+        }
+
+        .tabs label {
+            display:inline-block;
+            padding: 12px 20px;
+            margin: 0 4px;
+            background-color: white;
+            color: aliceblue;
+            border-radius: 4px 4px 0 0;
+            cursor: pointer;
+        }
+
+        #tab1:checked + label,
+        #tab2:checked + label,
+        #tab3:checked + label {
+            background-color: #333;
+            color: white;
+        }
+
+        .tab-content > div {
+            display:none;
+            padding: 30px;
+        }
+
+        #tab1:checked ~ .tab-content .tab-content-1,
+        #tab2:checked ~ .tab-content .tab-content-2,
+        #tab3:checked ~ .tab-content .tab-content-3 {
+            display: block;
+
+        }   
+
+        li {
+            display: inline-block;
+            border-radius: 4px;
+            width: 50px;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            margin: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<div> class="center-me">
   <h1>con acento</h1>
 </div>
 
 <div class="widget"> 
     <div class="tabs"> 
 
-        <input type="radio" id="about" name="tabs" checked> 
-        <label for="about">sobre el proyecto</label> 
+        <input type="radio" id="tab1" name="tabs" checked> 
+        <label for="tab1">sobre el proyecto</label> 
         
-        <input type="radio" id="study" name="tabs"> 
-        <label for="study">aprender</label> 
+        <input type="radio" id="tab2" name="tabs"> 
+        <label for="tab2">aprender</label> 
         
-        <input type="radio" id="practice" name="tabs"> 
-        <label for="practice">practicar</label>
+        <input type="radio" id="tab3" name="tabs"> 
+        <label for="tab3">practicar</label>
 
-<div class="tab-content" id="about"> 
-    <h2>sobre el proyecto</h2> 
-    <p> con acento is a hybrid study guide and webgame which aims to reinforce librarians' and archivists' commitment to improving their cataloging of (primarily) non-english names </p>
-    <p> con acento is developed by Hayla Ragland and Emily Uruchima (Kichwa Kañari) (</p>)
-</div> 
+        <div class="tab-content">
+            <div class="tab-content-1">
+                <h2>sobre el proyecto</h2> 
+                <p> con acento is a hybrid study guide 
+                    and webgame which aims to reinforce 
+                    librarians' and archivists' commitment 
+                    to mitigating record keeping errors 
+                    (typically) involving non-english names 
+                </p>
+                
+                <p> con acento is developed by Hayla Ragland 
+                    and Emily Uruchima (Kichwa Kañari) 
+                </p>
+            </div> 
 
-  
-<div class="tab-content" id="study"> 
-<style>
-  table, th, td {
-  border:1px solid white;
-}
-</style>
-  
-<body>
-    <h2>aprender</h2> 
-    <p>*short-keys to be formatted here as a td elements below</p> 
+             <div class="tab-content-2"> 
+                <h2>aprender</h2> 
 
-<table style="width:100%">
-  <tr>
-    <td>o</td>
-    <td>e</td>
-    <td>u</td>
-  </tr>
-</table>
+                <style>
+                    table, th, td {
+                        border:1px solid black;
+                    }
+                </style>
+                <body>
 
-</body>
-</div> 
+                 <table style="width:100%">
+                <tr>
+                    <th>Company</th>
+                    <th>Contact</th>
+                    <th>Country</th>
+                </tr>
+                <tr>
+                    <td>Alfreds Futterkiste</td>
+                    <td>Maria Anders</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>Centro comercial Moctezuma</td>
+                    <td>Francisco Chang</td>
+                    <td>Mexico</td>
+                </tr>
+                </table>
+            </body>
+
+            </div>
+            <div class="tab-content-3">     
+            <span class="hv-04__text hv-04__text--duotone">DUOTONE</span>
+            <span class="hv-04__label">dual-tone color swap</span>
+    
+                <h2>aprender</h2> 
+                <ul>
+                    <li>ó</li>
+                    <li>ó</li>
+                    <li>ó</li>
+                    <li>ó</li>
+                    <li>ó</li>
+                    <li>ó</li>
+                    <li>ó</li>
+                    <li>ó</li>
+                    <li>ó</li>
+                    <li>ó</li>
+                </ul> 
+            </div>
+         <p>      
         
-<div class="tab-content" id="practice-content"> 
-    <h2>Practice</h2> <p> Practice your knowledge here. 
-    </p>     
-    <input type="text" id="institution" placeholder="Institution" > 
-    <input type="text" id="initials" placeholder="Initials" maxlength="3" > 
-    <button id="startButton">Start Game</button><table> <tbody id="scoreBoard"> </tbody> 
-    </table> 
-</div> 
-
-</div> 
+        <input 
+            type="text" 
+            id="institución" 
+            placeholder="institución" 
+            > 
+        
+        <input 
+            type="text" 
+            id="name" 
+            placeholder="tú nombre" 
+            maxlength="45" 
+            > 
+        
+            <button id="startButton">
+                ¡go!
+            </button>
+        
+            <table> 
+                <tbody id="scoreBoard"> </tbody> 
+            </table> 
+        </div> 
+    
+    </div> 
 </div>
 
-
-
-</head>
-
-<body>
-    <div class="widget">
-    </div>
-   
-    <div class="tab-content">
-        <div class=tab-content1">
-            <h2>Overview</h2>
-            <p>
-                "insert text hear about the project"
-            </p>
-        </div>
-    </div>
+            
 </div>
-</body>
-</html>
+    <h1>practicar</h1>
 
-<h1> Sliding Tab Marker - CSS Only </h1>h1>
-
-    <div class="widget">
-        <div class="tabs">
-
-            <input
-                type="radio"
-                id="overview"
-                name="tabs"
-                checked 
-                <label for="experience">aprender</label>
-
-            <input
-                type="radio"
-                id="overview"
-                name="tabs"
-                <label for="experience">practicar</label>
-            
-              <input
-                type="radio"
-                id="overview"
-                name="tabs"
-                <label for="experience">sobre el proyecto</label>
-            
-    </div>
-<h1>Let's Practice!</h1>
-
-//player info input
+    //player info input
       
-<div>
-    <input
-        type="text"
-        id="playerName"
-        placeholder="Your name"
-    >
+    <div>
+        <input
+            type="text"
+            id="playerName"
+            placeholder="tú nombre"
+        >
 
-    <input
-        type="text"
-        id="institution"
-        placeholder="Institution"
-    >
+        <input
+            type="text"
+            id="institution"
+            placeholder="tú institución"
+        >
 
-    <input
-        type="text"
-        id="initials"
-        placeholder="Initials"
-        maxlength="3"
-    >
-
-    <button id="startButton">Start Game</button>
-</div>
+        <button id="startButton">Start Game</button>
+    </div>
 
 //game info - related text elements
       
-<p id="message">Press Start Game to begin!</p>
+    <p id="message">presiona go
+    </p>
 
-<p>
+    <p>
     Score: <span id="score">0</span>
-</p>
+    </p>
 
-<p>
+    <p>
     Time: <span id="timer">2:00</span>
-</p>
+    </p>
 
 //Letters
-<ul>
+
+<div> class="parent"> 
+    <div class="inline-block-element"> 
+        Some content here 
+    </div> 
+</div>
+
+body {
+    font-size: 3rem;
+    font-family: "Trebuchet MS", sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    border-radius: 4px;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    color: white;
+    padding: 10px;
+}
+
+.active {
+    display:block}
+
+    <ul>
     <li>ó</li>
     <li>é</li>
     <li>ö</li>
@@ -163,15 +257,15 @@
 
 //keeping score element
       
-<h2>High Scores</h2>
+<h2>los máximos 🏆</h2>
 
 <table>
     <thead>
         <tr>
-            <th>Rank</th>
-            <th>Initials</th>
-            <th>Score</th>
-            <th>Institution</th>
+            <th>puesto</th>
+            <th>nombre</th>
+            <th>puntos</th>
+            <th>institución</th>
         </tr>
     </thead>
 
@@ -181,4 +275,6 @@
 
 <script src="app.js"></script>
 
-</body> </html>
+</body> 
+
+</html>
