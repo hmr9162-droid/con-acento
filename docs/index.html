@@ -1,13 +1,53 @@
 <!DOCTYPE html>
-<html lang="eng">
-<head>
-    <meta charset=UTF-8">
-    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"
-    <title>KeyPressEvent</title>
+
+<html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="styles.css">
+
+<title>KeyPress Event</title>
+
 </head>
+
 <body>
-<p>¡Vamos a practicar!</p>
+
+<h1>Let's Practice!</h1>
+
+<!-- Player information -->
+<div>
+    <input
+        type="text"
+        id="playerName"
+        placeholder="Your name"
+    >
+
+    <input
+        type="text"
+        id="institution"
+        placeholder="Institution"
+    >
+
+    <input
+        type="text"
+        id="initials"
+        placeholder="Initials"
+        maxlength="3"
+    >
+
+    <button id="startButton">Start Game</button>
+</div>
+
+<!-- Game information -->
+<p id="message">Press Start Game to begin!</p>
+
+<p>
+    Score: <span id="score">0</span>
+</p>
+
+<p>
+    Time: <span id="timer">2:00</span>
+</p>
+
+<!-- Letters -->
 <ul>
     <li>ó</li>
     <li>é</li>
@@ -20,6 +60,24 @@
     <li>ê</li>
     <li>ø</li>
 </ul>
-    <script src="app.js"></script>
-</body>
-</html>
+
+<!-- Scoreboard -->
+<h2>High Scores</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Initials</th>
+            <th>Score</th>
+            <th>Institution</th>
+        </tr>
+    </thead>
+
+    <tbody id="scoreBoard">
+    </tbody>
+</table>
+
+<script src="app.js"></script>
+
+</body> </html>
