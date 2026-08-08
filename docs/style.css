@@ -1,4 +1,92 @@
 // conacento css
+
+p:not(:last-child) {
+    margin-block-end: 1em;
+}
+
+.widget {
+    width: 80vw;
+    max-width: 600px;
+    padding: 1rem;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.025);
+}
+
+.tabs {
+    --tabs count: 3
+    --active: 0;
+
+    position: relative;
+    isolation: isolate;
+    display: flex;
+    height: 3.5rem;
+    border-block-end: 1px solid #e9ebec;
+}
+
+.tabs input {
+    display: none;
+}
+
+.tabs label {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align items: center;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: #656d7b;
+    cursor; pointer; 
+    transition: color 0.5s ease-in-out;
+}
+
+.tabs input:checked +label {
+    color: #101010;
+}
+
+.tabs ::after{
+    pointer-events: none;
+    position: absolute
+    content: "";
+    z-index: 1
+    inset: 0 0 1px;
+    width: caqlc((100%/3) -2px);
+    border-radius: 0.5rem 0.5rem 0 0;
+    border: 1px solid #e9ebec;
+    border-block-end: none;
+    background-image: linear-gradient (#edf4ff, #fff);
+
+    translate: calc(var(--active) * 100%);
+    transition: translate 0.5s ease-in-out;
+}
+
+.tabs:has(:checked:nth-of-type(1)) {
+    --active: 0;
+}
+
+.tabs:has(:checked:nth-of-type(2)) {
+    --active: 1;
+}
+
+.tabs:has(:checked:nth-of-type(3)) {
+    --active: 2;
+}
+
+    
+.tab-content {
+    padding:1rem;
+}
+
+[class ^=*tab-content-"] {
+    display: none;
+}
+
+.widget:has(checked:nth-of-type(1)) .tab-content-1
+.widget:has(checked:nth-of-type(1)) .tab-content-2
+.widget:has(checked:nth-of-type(1)) .tab-content-3 {
+    display: blocl; 
+}
     
 <div class="“parent”">
   <div class="“inline-block-element”">Some content here</div>
@@ -6,22 +94,20 @@
 
     body {
         font-size: 3rem;
-        font-family: "Trebuchet MS";
+        font-family: Trebuchet MS
         text-align: center;
         margin: 0;
     }
 
     li {display: inline-block;
-    border-radius: 4px;
+    border-radius: 4px
     width: 50px;
     height: 50px;
-    background-color: #FF2D2D;
+    background-color: FF2D2D;
     color: white;
     padding: 10px;
 }
 
 .tab-content {display: none}
 
-.active {
-    display: block;
-}
+.active {display:block}
