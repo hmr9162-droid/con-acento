@@ -208,8 +208,9 @@ body {
 }
 
 .shortcut-table td:last-child {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
+    color: black;
 }
 
 /* Black keyboard keys */
