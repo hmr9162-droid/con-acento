@@ -21,6 +21,14 @@ body {
     background-color: #f5f7fa;
 }
 
+.shortcut-table {
+    font-size: 1rem;
+    font-family: "Trebuchet MS"
+    text-align:center;
+    margin: 0;
+
+}
+
 .widget {
     width: 80vw;
     max-width: 600px;
