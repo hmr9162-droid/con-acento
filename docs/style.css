@@ -98,4 +98,25 @@ body {
 .widget:has(checked:nth-of-type(1)) .tab-content-3 {
     display: block; 
 }
-    
+
+
+.glossary_text {
+  color: var(--text);
+  background-image: linear-gradient(#f97316);
+  background-size: 100% 100%;
+  transition: color .4s,filter .4s;
+}
+.glossary_text:hover {
+  color: transparent;
+  filter: hue-rotate(120deg) saturate(1.4);
+}
+.glossary_text--duotone {
+  color: var(--text);
+  background-image: linear-gradient(#f97316);
+  background-size: 100% 100%;
+  transition: color .4s,filter .4s;
+}
+.glossary_text--duotone:hover {
+  color: transparent;
+  filter: hue-rotate(120deg) saturate(1.4);
+}
