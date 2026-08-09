@@ -8,10 +8,12 @@
 
 <head>
     <style>
-        body {
-            font-size:1.2rem;
+       
+       body {
+            font-size:1.0rem;
             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             text-align: center;
+            color: black;
             margin: 0;
             padding: 30px;
         }
@@ -25,26 +27,28 @@
             padding: 12px 20px;
             margin: 0 4px;
             background-color: white;
-            color: aliceblue;
+            color: black;
             border-radius: 4px 4px 0 0;
             cursor: pointer;
         }
 
         #tab1:checked + label,
         #tab2:checked + label,
-        #tab3:checked + label {
+        #tab3:checked + label, 
+        #tab4:checked + label {
             background-color: #333;
             color: white;
         }
 
         .tab-content > div {
-            display:none;
+            display: none;
             padding: 30px;
         }
 
         #tab1:checked ~ .tab-content .tab-content-1,
         #tab2:checked ~ .tab-content .tab-content-2,
-        #tab3:checked ~ .tab-content .tab-content-3 {
+        #tab3:checked ~ .tab-content .tab-content-3,
+        #tab4:checked ~ .tab-content .tab-content-4 {
             display: block;
 
         }   
@@ -52,8 +56,10 @@
         li {
             display: inline-block;
             border-radius: 4px;
-            width: 50px;
+            width: 80px;
+            height: 80px;
             background-color: black;
+            font-size: 4rem;
             color: white;
             padding: 10px;
             margin: 5px;
@@ -73,58 +79,80 @@
 
 <body>
 
-<div> class="center-me">
+<div class="center-me">
+  
   <h1>con acento</h1>
+
 </div>
 
 <div class="widget"> 
     <div class="tabs"> 
 
         <input type="radio" id="tab1" name="tabs" checked> 
-        <label for="tab1">sobre el proyecto</label> 
+        <label for="tab1">sobre</label> 
         
         <input type="radio" id="tab2" name="tabs"> 
         <label for="tab2">aprender</label> 
         
         <input type="radio" id="tab3" name="tabs"> 
         <label for="tab3">practicar</label>
+        
+        <input type="radio" id="tab4" name="tabs"> 
+        <label for="tab4">🏆</label>
 
         <div class="tab-content">
             <div class="tab-content-1">
-                <h2>sobre el proyecto</h2> 
-                <p> con acento is a hybrid study guide 
+                <p style="text-align: justify;"> 
+                
+                con acento es una guía de estudio, un zine, y un juego web cuyo objetivo es reforzar el compromiso de los bibliotecarios y archivistas para mitigar los errores de registro que (típicamente) involucran palavras y 
+sustantivos propios que no están en inglés
+                  </p>  
+                  <p  style="text-align: justify; color: gray;"> 
+                	con acento is a hybrid study guide 
                     and webgame which aims to reinforce 
                     librarians' and archivists' commitment 
                     to mitigating record keeping errors 
                     (typically) involving non-english names 
                 </p>
                 
-                <p> con acento is developed by Hayla Ragland 
+                <p style="text-align: justify;"> 
+                	con acento está desarrollado por Hayla Ragland 
+                    y Emily Uruchima (Kichwa Kañari) 
+                </p>
+                
+                <p style="text-align: justify; color: gray;"> 
+                	con acento is developed by Hayla Ragland 
                     and Emily Uruchima (Kichwa Kañari) 
                 </p>
             </div> 
-
-             <div class="tab-content-2"> 
-                <h2>aprender</h2> 
+            </div> 
+            
+     <div class="tab-content">
+            <div class="tab-content-2">
+            <h2>lista de atajos</h2> 
 
                 <style>
                     table, th, td {
                         border:1px solid black;
+                      
                     }
                 </style>
                 <body>
 
                  <table style="width:100%">
+                 
                 <tr>
                     <th>Company</th>
                     <th>Contact</th>
                     <th>Country</th>
                 </tr>
+                
                 <tr>
                     <td>Alfreds Futterkiste</td>
                     <td>Maria Anders</td>
                     <td>Germany</td>
                 </tr>
+                
                 <tr>
                     <td>Centro comercial Moctezuma</td>
                     <td>Francisco Chang</td>
@@ -132,13 +160,15 @@
                 </tr>
                 </table>
             </body>
-
-            </div>
+	</div>
+    </div> 
+            
+            <div class="tab-content">
             <div class="tab-content-3">     
-            <span class="hv-04__text hv-04__text--duotone">DUOTONE</span>
-            <span class="hv-04__label">dual-tone color swap</span>
-    
-                <h2>aprender</h2> 
+                
+                <button id="startButton">go</button>
+                 <p id="message">presiona go
+    				</p>
                 <ul>
                     <li>ó</li>
                     <li>ó</li>
@@ -151,130 +181,54 @@
                     <li>ó</li>
                     <li>ó</li>
                 </ul> 
-            </div>
-         <p>      
-        
-        <input 
-            type="text" 
-            id="institución" 
-            placeholder="institución" 
-            > 
-        
-        <input 
-            type="text" 
-            id="name" 
-            placeholder="tú nombre" 
-            maxlength="45" 
-            > 
-        
-            <button id="startButton">
-                ¡go!
-            </button>
-        
-            <table> 
-                <tbody id="scoreBoard"> </tbody> 
-            </table> 
-        </div> 
-    
-    </div> 
-</div>
+                <p>
+    				Time: <span id="timer">2:00</span>
+    				</p>
+                    
+               	<div class="tab-content-3"> 
+                	<input
+            			type="text"
+           				id="playerName"
+            			placeholder="tú nombre"
+        			>
 
-            
-</div>
-    <h1>practicar</h1>
+        			<input
+            			type="text"
+            			id="institution"
+            			placeholder="tú institución"
+        			>
 
-    //player info input
+    				</div>
+                    
+                     <p>
+    				Score: <span id="score">0</span>
+    				</p>
+
+				</div>
+         		<p>  
+                
+             	
+             </div>
+
+      			<div class="tab-content">
+      			<div class="tab-content-4">  
+        			<h3>los máximos </h3>
+
+					<table>
+   			 			<thead>
+       			 		<tr>
+            				<th>🏅 puesto</th>
+            				<th>nombre</th>
+            				<th>puntos</th>
+            				<th>institución</th>
+        				</tr>
+    					</thead>
+
+    					<tbody id="scoreBoard">
+    					</tbody>
+
+					</table>
+    			</div>   
+    			</div> 
+			</div>
       
-    <div>
-        <input
-            type="text"
-            id="playerName"
-            placeholder="tú nombre"
-        >
-
-        <input
-            type="text"
-            id="institution"
-            placeholder="tú institución"
-        >
-
-        <button id="startButton">Start Game</button>
-    </div>
-
-//game info - related text elements
-      
-    <p id="message">presiona go
-    </p>
-
-    <p>
-    Score: <span id="score">0</span>
-    </p>
-
-    <p>
-    Time: <span id="timer">2:00</span>
-    </p>
-
-//Letters
-
-<div> class="parent"> 
-    <div class="inline-block-element"> 
-        Some content here 
-    </div> 
-</div>
-
-body {
-    font-size: 3rem;
-    font-family: "Trebuchet MS", sans-serif;
-    text-align: center;
-    margin: 0;
-}
-
-li {
-    display: inline-block;
-    border-radius: 4px;
-    width: 50px;
-    height: 50px;
-    background-color: #ffffff;
-    color: white;
-    padding: 10px;
-}
-
-.active {
-    display:block}
-
-    <ul>
-    <li>ó</li>
-    <li>é</li>
-    <li>ö</li>
-    <li>¡</li>
-    <li>å</li>
-    <li>ñ</li>
-    <li>ó</li>
-    <li>ó</li>
-    <li>ê</li>
-    <li>ø</li>
-</ul>
-
-//keeping score element
-      
-<h2>los máximos 🏆</h2>
-
-<table>
-    <thead>
-        <tr>
-            <th>puesto</th>
-            <th>nombre</th>
-            <th>puntos</th>
-            <th>institución</th>
-        </tr>
-    </thead>
-
-    <tbody id="scoreBoard">
-    </tbody>
-</table>
-
-<script src="app.js"></script>
-
-</body> 
-
-</html>
