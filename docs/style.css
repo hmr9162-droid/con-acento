@@ -152,6 +152,65 @@ body {
     text-align: center;
 }
 
+/* Shot Cut Table */
+
+.shortcut-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 1.5rem;
+}
+
+.shortcut-table th {
+    background-color: #333;
+    color: white;
+    padding: 18px 24px;
+    text-align: center;
+}
+
+.shortcut-table td {
+    padding: 25px 24px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.shortcut-table .shortcut {
+    font-size: 1.4rem;
+}
+
+.shortcut-table .shortcut-separator {
+    width: 50px;
+    font-size: 1.8rem;
+}
+
+.shortcut-table kbd {
+    display: inline-block;
+    min-width: 45px;
+    padding: 10px 16px;
+    margin: 3px;
+    
+    background-color: #222;
+    color: white;
+    
+    border: 1px solid #000;
+    border-radius: 6px;
+    
+    box-shadow: 
+        0 3px 0 #000,
+        0 4px 5px rgba(0, 0, 0, 0.25);
+    
+    font-family: inherit;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.shortcut-table td:last-child {
+    font-size: 3rem;
+    font-weight: bold;
+}
 
 /* Black keyboard keys */
 
@@ -171,6 +230,7 @@ kbd {
     box-sizing: border-box;
     box-shadow: 0 2px 0 #555;
 }
+
 
 /* Footer-Title Design for ASCII Art */
 
