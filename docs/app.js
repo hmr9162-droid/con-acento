@@ -1,10 +1,6 @@
 //conacento app.js
 
-const letters = [
-  "á", "é", "í", "ó", "ú",
-  "ñ", "ü", "å", "ø", "ö",
-  "ê", "¡", "¿", "ç", "¡",
-];
+const letters = [ "á", "é", "í", "ó", "ú", "ñ", "ü", "ö", "å", "ø", "ö", "ê", "¡", "¿", "ç" ];
 
 const items = document.querySelectorAll("li");
 
@@ -79,8 +75,8 @@ function updateTimer() {
 
   timeLeft--;
 
-  let minutes = Math.floor(timeLeft / 30);
-  let seconds = timeLeft % 30;
+  let minutes = Math.floor(timeLeft / 60);
+  let seconds = timeLeft % 60;
 
   document.getElementById("timer").textContent =
     `${minutes}:${seconds.toString().padStart(2,"0")}`;
@@ -177,13 +173,13 @@ function displayScores() {
 
   scores.forEach((player,index)=>{
 
-    board.innerHTML += `
+    board.innerHTML += 
       <tr>
         <td>${index+1}</td>
         <td>${player.puntos}</td>
         <td>${player.institución}</td>
       </tr>
-    `;
+    ;
 
   });
 
