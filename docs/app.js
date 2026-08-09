@@ -3,19 +3,19 @@
 const letters = [
   "á", "é", "í", "ó", "ú",
   "ñ", "ü", "å", "ø", "ö",
-  "ê", "¡", "¿", "ç"
+  "ê", "¡", "¿", "ç", "¡",
 ];
 
 const items = document.querySelectorAll("li");
 
-let score = 0;
+let points = 0;
 let timeLeft = 60;
 let timer;
 let gameStarted = false;
 
 let player = {
-  name: "",
-  institution: "",
+  nombre: "",
+  institución: "",
 };
 
 function randomLetter() {
@@ -31,16 +31,16 @@ function loadLetters() {
 loadLetters();
 
 
-// Start game button
+// play button 
 document.getElementById("startButton").addEventListener("click", () => {
 
-  player.name = document.getElementById("playerName").value;
-  player.institution = document.getElementById("institution").value
+  player.name = document.getElementById("nombre").value;
+  player.institution = document.getElementById("institución").value
     .toUpperCase()
     .substring(0,3);
 
   if (!player.name) {
-    alert("Add your name for the leader board before starting");
+    alert("escrive tú nombre aquí your name for the leader board before starting")
     return;
   }
 
@@ -105,7 +105,7 @@ document.addEventListener("keydown", (event) => {
 
       score++;
 
-      document.getElementById("score").textContent = score;
+      document.getElementById("puntos").textContent = puntos;
 
       item.textContent = randomLetter();
     }
@@ -123,7 +123,7 @@ function endGame() {
   gameStarted = false;
 
   document.getElementById("message").textContent =
-    "Finish! Good job!";
+    "¡Buena!";
 
   saveScore();
 
@@ -133,29 +133,30 @@ function endGame() {
 
 
 
-// Save high score
-function saveScore() {
+// la lista de puntuación altas o "maximos"
 
-  let scores =
-    JSON.parse(localStorage.getItem("highScores")) || [];
+function savePuntos() {
+
+  let puntos =
+    JSON.parse(localStorage.getItem("highPuntos")) || [];
 
 
-  scores.push({
-    name: player.name,
+  puntos.push({
+    name: player.nombre,
     institution: player.institution,
-    score: score
+    score: puntos
   });
 
 
-  scores.sort((a,b)=> b.score - a.score);
+  puntos.sort((a,b)=> b.score - a.score);
 
 
-  scores = scores.slice(0,10);
+  puntos = puntos.slice(0,20);
 
 
   localStorage.setItem(
-    "highScores",
-    JSON.stringify(scores)
+    "highPuntos",
+    JSON.stringify(puntos)
   );
 
 }
@@ -170,7 +171,7 @@ function displayScores() {
 
   board.innerHTML = "";
 
-  let scores =
+  let puntos =
     JSON.parse(localStorage.getItem("highScores")) || [];
 
 
@@ -179,8 +180,8 @@ function displayScores() {
     board.innerHTML += `
       <tr>
         <td>${index+1}</td>
-        <td>${player.score}</td>
-        <td>${player.institution}</td>
+        <td>${player.puntos}</td>
+        <td>${player.institución}</td>
       </tr>
     `;
 
@@ -188,4 +189,4 @@ function displayScores() {
 
 }
 
-displayScores();
+displayPuntos();
