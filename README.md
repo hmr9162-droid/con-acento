@@ -1,4 +1,4 @@
-# ⊹₊✎⋆ con acento ⊹₊✎⋆.
+# ascii-con-acento.png
 
 ## About
 ~
