@@ -139,3 +139,22 @@ body {
     color: transparent;
     filter: hue-rotate(120deg) saturate(1.4);
 }
+
+/* Black keyboard keys */
+
+kbd { 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px
+    heught: 32px
+    padding: 0 8px
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    box-sizing: border-box;
+    box-shadow:
+        0 2px 0 #555;
