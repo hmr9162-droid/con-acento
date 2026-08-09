@@ -1,4 +1,4 @@
-# ascii-con-acento.png
+# con acento
 
 ## About
 ~
