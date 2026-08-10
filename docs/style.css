@@ -43,17 +43,24 @@ body {
 
 /* Title header and logo design */ 
 
-.site-header {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: black;
+.site-header { 
+    position: absolute; 
+    top: 30px; 
+    left: 0; 
+    right: 0; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    margin: 0; 
+    padding: 0; 
 }
 
-.logo {
-    text-align: left;
+.site-header img { 
+    display: block; 
+    width: 150px; 
+    height: auto; 
+    margin: 0; 
+    padding: 0; 
 }
 
 /* tab design and controls */ 
