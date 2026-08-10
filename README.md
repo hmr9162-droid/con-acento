@@ -1,23 +1,23 @@
 # con acento
 
-•••
+
 
 ## About
-~
 
-•••
+
+
 
 ## Why
 
-•••
+
 
 ## Who
 
-•••
+
 
 ## Contributing to this project
 
-•••
+
 
 ## This project could not have been developed without use of the following resources and refereneces:
 
