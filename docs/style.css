@@ -208,14 +208,14 @@ kbd {
 /* Accent letters */
 
 .accent-letter {
-    font-size: 25rem;
+    font-size: 200rem;
     font-weight: 500;
 }
 
 /* Equal Sign */
 
 .equal-sign {
-    font-size: 25rem;
+    font-size: 200rem;
     font-weight: 500;
 }
 
