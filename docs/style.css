@@ -212,6 +212,13 @@ kbd {
     font-weight: 500;
 }
 
+/* Equal Sign */
+
+.equal-sign {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
 /* Footer for created by and copyright */
 
 footer {
