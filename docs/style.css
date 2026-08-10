@@ -2,6 +2,16 @@
 p:not(:last-child) {
     margin-block-end: 1em;
 }
+
+.page-layout {
+    display: grid;
+    grid-template-colums: 150px minmax (0,1fr);
+    gap: 40px;
+    width: calc(100% - 100px);
+    max-width: 1700px;
+    margin: 100px 50px 4rem;
+    align-items: start;
+}
     
 html, body {
     margin: 0;
