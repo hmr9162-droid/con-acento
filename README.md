@@ -1,5 +1,5 @@
 
-# <img src="docs/ascii_white.jpg" width="1000">
+# 𝐜𝐨𝐧 𝐚𝐜𝐞𝐧𝐭𝐨 𝐩𝐨𝐫 𝐅𝐀𝐕𝐎𝐑
 
 
 
