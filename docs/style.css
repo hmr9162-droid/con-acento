@@ -5,7 +5,7 @@ p:not(:last-child) {
 }
 
 .logo-image {
-    image-align: left;
+    text-align: left;
 }
 
 .title-image { 
