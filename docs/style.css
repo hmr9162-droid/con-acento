@@ -4,7 +4,7 @@ p:not(:last-child) {
     margin-block-end: 1em;
 }
 
-.logo {
+.logo-image {
     text-align: right;
 }
 
