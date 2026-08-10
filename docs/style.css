@@ -45,7 +45,7 @@ body {
 
     .site-header { 
         position: absolute; 
-        top: 30px; 
+        top: 20px; 
         left: 0; 
         right: 0; 
         width: 100%; 
@@ -73,6 +73,7 @@ body {
 /* tab design and controls */ 
 
 .tabs {
+    margin-top: 300px;
     display: grid;
     grid-template-columns: 150px minmax(0, 1fr); 
     column-gap: 40px; 
