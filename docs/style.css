@@ -49,10 +49,10 @@ body {
 /* tab design */ 
     
 .tabs {
-    display: flex;
+    display: grid;
+    grid-template-columns: 150px 1fr;
     width: 100%;
-    flex-direction: column;
-    align-items: flex-start;
+    align-items: start;
 }
 
 .tabs input[type="radio"] {
@@ -64,7 +64,7 @@ body {
     width: 100%;
     box-sizing: border-box;
     padding: 5px 10px;
-    margin: 2px 0;
+    margin: 10px 0;
     background-color: white;
     color: black;
     border: 1px solid #ddd;
@@ -80,6 +80,15 @@ body {
 
 [class^="tab-content-"] {
     display: none;
+}
+
+.tab-content {
+    grid-colum: 2;
+    grid-row: 1 / span 4;
+    width: 100%
+    box-sizing: border-box;
+    padding: 0 2 rem;
+    text-align: center;
 }
 
 /* Letter block design */
