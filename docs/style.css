@@ -205,6 +205,13 @@ kbd {
         0 4px 5px rgba(0, 0, 0, 0.25);
 }
 
+/* Accent letters */
+
+.accent-letter {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
 /* Footer for created by and copyright */
 
 footer {
