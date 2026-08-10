@@ -1,5 +1,5 @@
 
-# # <img src="docs/ascii_white.jpg" width="300">
+# <img src="docs/ascii_white.jpg" width="900">
 
 
 
