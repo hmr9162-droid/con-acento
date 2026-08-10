@@ -4,8 +4,9 @@ p:not(:last-child) {
     margin-block-end: 1em;
 }
 
-header {
-    /* header styles */
+h1 img {
+  display: block;
+  margin-left: auto;
 }
 
 .title-image {
