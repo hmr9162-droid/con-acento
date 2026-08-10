@@ -29,15 +29,16 @@ body {
 }
 
 .widget {
-    text-align: center;
-    width: 80vw;
+    width: 100%;
     max-width: 1500px;
+    min-height: 500px;
     padding: 2rem;
-    margin: 100px 5vw 4rem 250px;
+    margin: 0;
     box-sizing: border-box;
     border-radius: 1rem;
     background-color: #fff;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.025);
+    box-shadow: 
+        0 10px 20px 0 rgba(0, 0, 0, 0.025);
 }
 
 /* Title header and logo design */ 
@@ -59,11 +60,9 @@ body {
 /* tab design */ 
     
 .tabs {
-    position: absolute;
-    top: 105px;
-    left:50px;
     display: flex;
-    width: 100%;
+    flex-direction: column;
+    width: 150px;
 }
 
 .tabs input[type="radio"] {
@@ -105,10 +104,12 @@ body {
     display: none;
 }
 
-} #tab1:checked ~ .widget .tab-content-1, 
+} 
+
+#tab1:checked ~ .widget .tab-content-1, 
 #tab2:checked ~ .widget .tab-content-2, 
-#tab3:checked ~ .widget .tab-content-3, #
-tab4:checked ~ .widget .tab-content-4 { 
+#tab3:checked ~ .widget .tab-content-3, 
+#tab4:checked ~ .widget .tab-content-4 { 
     display: block; 
 }
 
