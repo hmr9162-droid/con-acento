@@ -4,14 +4,11 @@ p:not(:last-child) {
     margin-block-end: 1em;
 }
 
-.logo {
+.logo-image {
     text-align: right;
-}
-
-.title-image { 
     display: block;
     width: 200px;
-    padding: 200px;
+    padding: 10px;
     max-width: 100%;
     height: auto;
     margin: 0 auto 30px;
@@ -23,17 +20,6 @@ body {
     text-align: center;
     margin: 0;
     background-color: #f5f7fa;
-}
-
-.shortcut-table {
-    font-size: 10rem;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica," Arial, sans-serif;
-    text-align:center;
-    padding: 5rem;
-    background-color: white;
-    border-radius: 2rem;
-    margin: 0;
-
 }
 
 .widget {
@@ -224,6 +210,229 @@ kbd {
     box-shadow: 0 2px 0 #555;
 }
 
+conacento css
+
+p:not(:last-child) {
+    margin-block-end: 1em;
+}
+
+.logo {
+    text-align: right;
+}
+
+.title-image { 
+    display: block;
+    width: 200px;
+    padding: 200px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 30px;
+}
+    
+body {
+    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica," Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    background-color: #f5f7fa;
+}
+
+.shortcut-table {
+    font-size: 10rem;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica," Arial, sans-serif;
+    text-align:center;
+    padding: 5rem;
+    background-color: white;
+    border-radius: 2rem;
+    margin: 0;
+
+}
+
+.widget {
+    width: 80vw;
+    max-width: 600px;
+    padding: 1rem;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.025);
+}
+
+/* tab design */ 
+    
+.tabs {
+    --tabs-count: 4;
+    --active: 0;
+
+    position: relative;
+    isolation: isolate;
+    display: flex;
+    height: 3.5rem;
+    border-block-end: 1px solid #e9ebec;
+}
+
+.tabs input {
+    display: none;
+}
+
+.tabs label {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+    border-radius: 999px;
+    cursor: pointer; 
+    transition: color 0.5s ease-in-out;
+}
+
+.tabs input:checked +label {
+    color: #101010;
+}
+
+.tabs::after{
+    pointer-events: none;
+    position: absolute;
+    content: "";
+    z-index: 1;
+    inset: 0 0 1px;
+    width: calc((100%/4) -2px);
+    border-radius: 999px;
+    border: 0px solid #e9ebec;
+    border-block-end: none;
+    background: #E5E4E2;
+
+    translate: calc(var(--active) * 100%);
+    transition: translate 0.5s ease-in-out;
+}
+
+.tabs:has(input:checked:nth-of-type(1)) {
+    --active: 0;
+}
+
+.tabs:has(input:checked:nth-of-type(2)) {
+    --active: 1;
+}
+
+.tabs:has(input:checked:nth-of-type(3)) {
+    --active: 2;
+}
+
+.tabs:has(input:checked:nth-of-type(4)) {
+    --active: 3;
+}
+
+.tab-content {
+    padding:1rem;
+}
+
+[class^="tab-content-"] {
+    display: none;
+}
+
+.widget:has(checked:nth-of-type(1)) .tab-content-1
+.widget:has(checked:nth-of-type(1)) .tab-content-2
+.widget:has(checked:nth-of-type(1)) .tab-content-3 {
+    display: block; 
+}
+
+/* Table design */
+
+.score-table th,
+.score-table td {
+    padding: 20px;
+    text-align: left;
+}
+    
+.score-table {
+    width: 80%;
+    max-width: 550px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+/* Shot Cut Table */
+
+.shortcut-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 1.5rem;
+}
+
+.shortcut-table th {
+    background-color: #333;
+    color: white;
+    padding: 18px 24px;
+    text-align: center;
+}
+
+.shortcut-table td {
+    padding: 25px 24px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.shortcut-table .shortcut {
+    font-size: 1.4rem;
+}
+
+.shortcut-table .shortcut-separator {
+    width: 50px;
+    font-size: 1.8rem;
+}
+
+.shortcut-table kbd {
+    display: inline-block;
+    min-width: 45px;
+    padding: 10px 16px;
+    margin: 3px;
+    
+    background-color: #222;
+    color: white;
+    
+    border: 1px solid #000;
+    border-radius: 6px;
+    
+    box-shadow: 
+        0 3px 0 #000,
+        0 4px 5px rgba(0, 0, 0, 0.25);
+    
+    font-family: inherit;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.shortcut-table td:last-child {
+    font-size: 4rem;
+    font-weight: bold;
+    color: black;
+}
+
+/* Black keyboard keys */
+
+kbd { 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    padding: 0 8px;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    box-sizing: border-box;
+    box-shadow: 0 2px 0 #555;
+}
+
 
 /* Footer-Title Design for ASCII Art */
 
@@ -231,9 +440,4 @@ footer {
     display: flex;
     justify-content: center;
     padding: 20rem;
-}
-.footer-title {
-    height: auto;
-    max-width: 100%;
-    padding: 200px;
 }
