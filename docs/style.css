@@ -68,9 +68,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.9375rem;
+    font-size: 1.5rem;
     font-weight: 600;
-    color: #656d7b;
+    color: black;
     border-radius: 999px;
     cursor: pointer; 
     transition: color 0.5s ease-in-out;
@@ -88,7 +88,7 @@ body {
     inset: 0 0 1px;
     width: calc((100%/4) -2px);
     border-radius: 999px;
-    border: 1px solid #e9ebec;
+    border: 0px solid #e9ebec;
     border-block-end: none;
     background: #E5E4E2;
 
