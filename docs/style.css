@@ -43,25 +43,32 @@ body {
 
 /* Title header and logo design */ 
 
-.site-header { 
-    position: absolute; 
-    top: 30px; 
-    left: 0; 
-    right: 0; 
-    display: flex; 
-    justify-content: space-between; 
-    align-items: flex-start; 
-    margin: 0; 
-    padding: 0; 
-}
+    .site-header { 
+        position: absolute; 
+        top: 30px; 
+        left: 0; 
+        right: 0; 
+        width: 100%; 
+        display: flex; 
+        justify-content: space-between; 
+        align-items: flex-start; 
+        margin: 0; padding: 0; 
+    } 
 
-.site-header img { 
-    display: block; 
-    width: 150px; 
-    height: auto; 
-    margin: 0; 
-    padding: 0; 
-}
+    .site-header img { 
+        display: block; 
+        height: auto; 
+    
+    } 
+
+    .logo-left { 
+        width: 150px; 
+
+    } 
+
+    .logo-right { 
+        width: 150px; 
+    }
 
 /* tab design and controls */ 
 
