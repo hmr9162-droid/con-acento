@@ -29,13 +29,16 @@ body {
 /* tab design */ 
     
 .tabs {
+    display: grid;
+    grid=template-colums: 160px 1fr;
+    align-items: start;
+    width: 100%
     --tabs-count: 4;
     --active: 0;
-    align: left;
     position: relative;
+    flex-direction: column;
+    align-items: flex-start;
     isolation: isolate;
-    display: flex;
-    height: 3.5rem;
 }
 
 .tabs input {
@@ -43,12 +46,13 @@ body {
 }
 
 .tabs label {
-    flex: 1;
+    grid-column: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    font: helvetica;
-    font-size: 1.5rem;
+    padding: 10px 20px 
+    font: Helvetica;
+    font-size: 1.2rem;
     font-weight: 600;
     color: black;
     border-radius: 999px;
@@ -74,6 +78,13 @@ body {
 
     translate: calc(var(--active) * 100%);
     transition: translate 0.5s ease-in-out;
+}
+
+.tab-content {
+    grid-column: 2;
+    grid-row: 1/span 4;
+    padding: 0 1.5rem;
+
 }
 
 .tabs:has(input:checked:nth-of-type(1)) {
