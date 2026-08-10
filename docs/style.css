@@ -1,12 +1,12 @@
 /* conacento style.css */
 
-p:not(:last-child) {
-    margin-block-end: 1em;
-}
-
 .logo-image {
     text-align: left;
     margin: 0 0 30px;
+}
+
+p:not(:last-child) {
+    margin-block-end: 1em;
 }
 
 .logo-image img {
