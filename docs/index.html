@@ -7,8 +7,8 @@
 <link rel="stylesheet" href="styles.css">
 
 	<h1 class="logo">
-    <img src="/images/ascii-con-acento.png">
-</h1>
+    	<img src="../images/ascii-con-acento.png">
+	</h1>
 
 <head> 
     <style>
@@ -138,50 +138,41 @@
             
      <div class="tab-content">
             <div class="tab-content-2">
-            <h2>lista de atajos</h2> 
-		
-                <style>
-                    table, th, td {
-                        border:5px white;
-                    }
-                </style>
-                <body>
+            
+			<h2>lista de atajos</h2> 
+				
+			<h3>regla para hacer un acento</h3>
 
-                 <table style="width:100%">
+			<table class="shortcut-table">
+				<tbody>
+    				<tr>
+        				<td class="shortcut">
+           					<kbd>option</kbd> + <kbd>E</kbd> + <kbd>E</kbd>
+        				</td>
+        				<td>=</td>
+        				<td>é</td>
+    				</tr>
 
-				<h3>regla para hacer un acento</h3>
-        
-	<table class="shortcut-table">
-    		<tr>
-        		<td class="shortcut">
-           		<kbd>option</kbd> + <kbd>E</kbd> + <kbd>E</kbd>
-        		</td>
-        		<td>=</td>
-        		<td>é</td>
-    		</tr>
-
-			<tr>
-        		<td class="shortcut">
-           		<kbd>option</kbd> + <kbd>E</kbd> + <kbd>E</kbd>
-        		</td>
-        		<td>=</td>
-        		<td>é</td>
-    		</tr>
-					
-					
-	
+					<tr>
+        				<td class="shortcut">
+           					<kbd>option</kbd> + <kbd>E</kbd> + <kbd>E</kbd>
+        				</td>
+        				<td>=</td>
+        				<td>é</td>
+    				</tr>
 			</tbody>
-            </table>
-            </body>
+    	</table>
 	</div>
-    </div> 
+</div> 
             
             <div class="tab-content">
             <div class="tab-content-3">     
-                
-                <button id="startButton">ir</button>
-                 <p id="message">presiona "ir" para empezar 
-    				</p>
+
+				<p>
+    				Time: <span id="timer">1:00</span>
+    			</p>
+				
+        
                 <ul>
                     <li>ó</li>
                     <li>ó</li>
@@ -194,35 +185,32 @@
                     <li>ó</li>
                     <li>ó</li>
                 </ul> 
+				
+                 <button id="startButton">ir</button>
+                 <p id="message">presiona "ir" para empezar 
+    			</p>
+
+				
+    			<input
+            		type="text"
+           			id="nombre"
+            		placeholder="tú nombre"
+        		>
+
+        		<input
+            		type="text"
+            		id="institución"
+            		placeholder="tú institución"
+        		>
+                    
                 <p>
-    				Time: <span id="timer">1:00</span>
-    				</p>
-                    
-               	<div class="tab-content-3"> 
-                	<input
-            			type="text"
-           				id="nombre"
-            			placeholder="tú nombre"
-        			>
-
-        			<input
-            			type="text"
-            			id="institución"
-            			placeholder="tú institución"
-        			>
-
-    				</div>
-                    
-                     <p>
-    				puntos: <span id="puntos">0</span>
-    				</p>
+    			puntos: <span id="puntos">0</span>
+    			</p>
 
 				</div>
-         		<p>  
-                
-             	
-             </div>
+         	</div>
 
+			
       			<div class="tab-content">
       			<div class="tab-content-4">  
         			<h3>los máximos </h3>
