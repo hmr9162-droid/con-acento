@@ -3,21 +3,21 @@
 
 
 
-## el razonamiento
+## 𝐞𝐥 𝐫𝐚𝐳𝐨𝐧𝐚𝐦𝐢𝐞𝐧𝐭𝐨
 
 
 
-## quienes
+
+## 𝐪𝐮𝐢𝐞𝐧𝐞𝐬
+
+
+## 𝐚𝐩𝐨𝐲𝐚 𝐞𝐬𝐭𝐞 𝐩𝐫𝐨𝐲𝐞𝐜𝐭𝐨
 
 
 
-## apoya este proyecto
+## 𝐢𝐧𝐬𝐩𝐢𝐫𝐚𝐜𝐢ó𝐧 𝐲 𝐝𝐢𝐬𝐞ñ𝐨 𝐝𝐞 𝐩𝐫𝐨𝐲𝐞𝐜𝐭𝐨𝐬
 
-
-
-## inspiración y diseño de proyectos
-
-👤 | Element | 🔗 |
+👤 | 𝐞𝐥𝐞𝐦𝐞𝐧𝐭𝐨𝐬 | 🔗 |
 |:--------------:|:----------------:|:----------------------------------------------------------:|
 @w3schools | `key press events`  | https://www.w3schools.com/jsref/event_onkeypress.asp 
 @CodeLab | `key press events`  | https://www.youtube.com/watch?v=8__gPh2F8xM 
@@ -29,4 +29,4 @@
 @FontGen | `font generator` |https://fontgen.cool/
 
 
-## ʟɪᴄᴇɴꜱᴇ
+## 𝐥𝐢𝐜𝐞𝐧𝐜𝐢𝐚
