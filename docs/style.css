@@ -1,4 +1,4 @@
-conacento css
+/* conacento style.css */
 
 p:not(:last-child) {
     margin-block-end: 1em;
@@ -29,9 +29,7 @@ body {
 /* tab design */ 
     
 .tabs {
-    display: grid;
-    grid=template-colums: 160px 1fr;
-    align-items: start;
+    display: flex;
     width: 100%
     --tabs-count: 4;
     --active: 0;
