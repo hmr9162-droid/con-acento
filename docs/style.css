@@ -6,6 +6,13 @@ p:not(:last-child) {
 
 .logo-image {
     text-align: left;
+    margin: 0 0 30px;
+}
+
+.logo-image img {
+    display: inline-block;
+    width: 200px;
+    height: auto;
 }
 
 .title-image { 
@@ -39,17 +46,15 @@ body {
 /* tab design */ 
     
 .tabs {
-    display: flex;
-    width: 100%
     --tabs-count: 4;
     --active: 0;
-    position: relative;
+    display: flex;
+    width: 100%
     flex-direction: column;
     align-items: flex-start;
-    isolation: isolate;
 }
 
-.tabs input {
+.tabs input[type="radio"] {
     display: none;
 }
 
