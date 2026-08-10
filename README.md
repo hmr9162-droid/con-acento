@@ -1,32 +1,37 @@
 # con acento
 
+•••
+
 ## About
 ~
 
+•••
+
 ## Why
 
-~
+•••
 
 ## Who
 
-~
+•••
 
 ## Contributing to this project
 
-## This project could not have been developed without use of the following resources:
+•••
 
-# Links to the example headings above
+## This project could not have been developed without use of the following resources and refereneces:
 
-## 🔗 code sources and inspo:
+👤 | Element | 🔗 
+--- | --- 
+w3schools | `key press events`  | [https://www.w3schools.com/jsref/event_onkeypress.asp] (click here) 
+@CodeLab | `key press events`  | [https://www.w3schools.com/jsref/event_onkeypress.asp] ( 
+@OptimisticWeb | [https://www.youtube.com/watch?v=8__gPh2F8xM ] (click here)
+1 | 2 |  https://he-is-talha.github.io/html-css-javascript-games/30-Typing-Game/
+1 | `key frame animation`  |  https://blog.andyet.com/2015/07/17/generating-css-keyframe-animations-with-javascript/
+1 | `duotone hover effect` |  https://codefronts.com/try/?c=css-hover-effects&d=css-gradient-text-reveal-hover-effect 
+1 | `bitmap font` | https://www.youtube.com/shorts/TULorU5MTYo?feature=share bitmap font
 
-    https://www.w3schools.com/jsref/event_onkeypress.asp
-    https://www.youtube.com/watch?v=8__gPh2F8xM [youtube @CodeLab}
-    https://www.youtube.com/watch?v=4gkdSPEHf8Q&t=35s [Youtube @OptimisticWeb)]
-    https://he-is-talha.github.io/html-css-javascript-games/30-Typing-Game/
-    https://blog.andyet.com/2015/07/17/generating-css-keyframe-animations-with-javascript/
-    https://codefronts.com/try/?c=css-hover-effects&d=css-gradient-text-reveal-hover-effect [duotone]
-    https://www.artstation.com/artwork/9qmdQ vivian lim character animator
-    https://www.youtube.com/shorts/TULorU5MTYo?feature=share bitmap font
+    
 
 🎨 debugging with visual studio code
 
