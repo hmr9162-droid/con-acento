@@ -27,20 +27,26 @@ function loadLetters() {
 loadLetters();
 
 
-// play button 
-document.getElementById("startButton").addEventListener("click", () => {
+// press any key to start the game 
+document.addEventListener("keydown", (event) => {
 
-  player.name = document.getElementById("nombre").value;
-  player.institution = document.getElementById("institución").value
-    .toUpperCase()
-    .substring(0,3);
+    if (gameStarted) return;
 
-  if (!player.name) {
-    alert("escrive tú nombre aquí your name for the leader board before starting")
-    return;
-  }
+    player.nombre = document.getElementById("nombre").value;
 
-  startSequence();
+    player.institución = document
+        .getElementById("institución")
+        .value
+        .toUpperCase()
+        .substring(0, 3);
+
+    if (!player.nombre) {
+        document.getElementById("message").textContent =
+            "escribe tu nombre primero";
+        return;
+    }
+
+    startSequence();
 });
 
 
