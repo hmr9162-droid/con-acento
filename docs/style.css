@@ -238,7 +238,7 @@ kbd {
 footer {
     display: flex;
     justify-content: center;
-    padding: 2rem;
+    padding: 20rem;
 }
 .footer-title {
     height: auto;
