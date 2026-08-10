@@ -73,7 +73,7 @@ body {
 /* tab design and controls */ 
 
 .tabs {
-    margin-top: 100px;
+    margin-top: 20px;
     display: grid;
     grid-template-columns: 150px minmax(0, 1fr); 
     column-gap: 40px; 
@@ -223,14 +223,14 @@ kbd {
 /* Accent letters */
 
 .accent-letter {
-    font-size: 200rem;
+    font-size: 400rem;
     font-weight: 500;
 }
 
 /* Equal Sign */
 
 .equal-sign {
-    font-size: 200rem;
+    font-size: 400rem;
     font-weight: 500;
 }
 
@@ -239,5 +239,5 @@ kbd {
 footer {
     display: flex;
     justify-content: center;
-    padding: 200rem;
+    padding: 100rem;
 }
