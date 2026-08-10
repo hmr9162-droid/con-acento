@@ -4,9 +4,8 @@ p:not(:last-child) {
     margin-block-end: 1em;
 }
 
-h1 img {
-  display: block;
-  margin-left: auto;
+.logo {
+    text-align: right;
 }
 
 .title-image {
