@@ -106,12 +106,12 @@ body {
     } 
 
     .logo-left { 
-        width: 200px; 
+        height: 100px; 
 
     } 
 
     .logo-right { 
-        width: 200px; 
+        height: 100px; 
     }
 
 /* tab design and controls */ 
