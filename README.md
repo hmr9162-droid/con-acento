@@ -17,12 +17,17 @@
 
 # Links to the example headings above
 
-Link to the sample section: [Link Text](#sample-section).
+## 🔗 code sources and inspo:
 
-Link to the helpful section: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-Θ).
+    https://www.w3schools.com/jsref/event_onkeypress.asp
+    https://www.youtube.com/watch?v=8__gPh2F8xM [youtube @CodeLab}
+    https://www.youtube.com/watch?v=4gkdSPEHf8Q&t=35s [Youtube @OptimisticWeb)]
+    https://he-is-talha.github.io/html-css-javascript-games/30-Typing-Game/
+    https://blog.andyet.com/2015/07/17/generating-css-keyframe-animations-with-javascript/
+    https://codefronts.com/try/?c=css-hover-effects&d=css-gradient-text-reveal-hover-effect [duotone]
+    https://www.artstation.com/artwork/9qmdQ vivian lim character animator
+    https://www.youtube.com/shorts/TULorU5MTYo?feature=share bitmap font
 
-Link to the first non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file).
-
-Link to the second non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file-1).
+🎨 debugging with visual studio code
 
 ## License
