@@ -32,9 +32,4 @@
 @Taghmagazine | `bitmap font` | [https://www.youtube.com/shorts/TULorU5MTYo?feature=share] 
 
 
-
-    
-
-🎨 debugging with visual studio code
-
 ## License
