@@ -46,8 +46,6 @@ body {
 /* tab design */ 
     
 .tabs {
-    --tabs-count: 4;
-    --active: 0;
     display: flex;
     width: 100%
     flex-direction: column;
@@ -77,43 +75,12 @@ body {
     color: #101010;
 }
 
-.tabs::after{
-    pointer-events: none;
-    position: absolute;
-    content: "";
-    z-index: 1;
-    inset: 0 0 1px;
-    width: calc((100%/4) -2px);
-    border-radius: 999px;
-    border: 0px solid #e9ebec;
-    border-block-end: none;
-    background: #E5E4E2;
-
-    translate: calc(var(--active) * 100%);
-    transition: translate 0.5s ease-in-out;
-}
 
 .tab-content {
     grid-column: 2;
     grid-row: 1/span 4;
     padding: 0 1.5rem;
 
-}
-
-.tabs:has(input:checked:nth-of-type(1)) {
-    --active: 0;
-}
-
-.tabs:has(input:checked:nth-of-type(2)) {
-    --active: 1;
-}
-
-.tabs:has(input:checked:nth-of-type(3)) {
-    --active: 2;
-}
-
-.tabs:has(input:checked:nth-of-type(4)) {
-    --active: 3;
 }
 
 .tab-content {
@@ -124,11 +91,6 @@ body {
     display: none;
 }
 
-.widget:has(checked:nth-of-type(1)) .tab-content-1
-.widget:has(checked:nth-of-type(1)) .tab-content-2
-.widget:has(checked:nth-of-type(1)) .tab-content-3 {
-    display: block; 
-}
 
 /* Scoreboard table design */
 
