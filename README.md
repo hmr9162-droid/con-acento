@@ -2,24 +2,24 @@
 
 
 
-## About
+## ᴀʙᴏᴜᴛ
 
 
 
 
-## Why
+## ᴡʜʏ
 
 
 
-## Who
+## ᴡʜᴏ
 
 
 
-## Contributing to this project
+## ᴄᴏɴᴛʀɪʙᴜᴛɪɴɢ ᴛᴏ ᴛʜɪꜱ ᴘʀᴏᴊᴇᴄᴛ
 
 
 
-## This project could not have been developed without use of the following resources and refereneces:
+## ᴛʜɪꜱ ᴘʀᴏᴊᴇᴄᴛ ᴄᴏᴜʟᴅ ɴᴏᴛ ʜᴀᴠᴇ ʙᴇᴇɴ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ᴡɪᴛʜᴏᴜᴛ ᴜꜱᴇ ᴏꜰ ᴛʜᴇ ꜰᴏʟʟᴏᴡɪɴɢ ʀᴇꜱᴏᴜʀᴄᴇꜱ ᴀɴᴅ ʀᴇꜰᴇʀᴇɴᴇᴄᴇꜱ:
 
 👤 | Element | 🔗 |
 |:--------------:|:----------------:|:----------------------------------------------------------:|
@@ -30,6 +30,7 @@
 @talha | `typing game` |  https://he-is-talha.github.io/html-css-javascript-games/30-Typing-Game/
 @HenrikJoreteg | `key frame animation`  |  https://blog.andyet.com/2015/07/17/generating-css-keyframe-animations-with-javascript/
 @Taghmagazine | `bitmap font` | https://www.youtube.com/shorts/TULorU5MTYo?feature=share 
+@FontGen | `font generator` |https://fontgen.cool/
 
 
-## License
+## ʟɪᴄᴇɴꜱᴇ
