@@ -11,11 +11,11 @@
 
 
 
-### apoya este proyecto
+## apoya este proyecto
 
 
 
-### inspiración y diseño de proyectos
+## inspiración y diseño de proyectos
 
 👤 | Element | 🔗 |
 |:--------------:|:----------------:|:----------------------------------------------------------:|
