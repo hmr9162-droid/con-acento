@@ -172,9 +172,9 @@ ul {
 }
 
 li {
-    flex: 0 0 80px;
-    width: 150px;
-    height: 150px;
+    flex: 0 0 200px;
+    width: 1200px;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,25 +208,18 @@ kbd {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-
     min-width: 150px;
     height: 150px;
-
     padding: 0 12px;
     margin: 3px;
-
     background-color: #000;
     color: #fff;
-
     border: 1px solid #000;
     border-radius: 6px;
-
     font-family: inherit;
     font-size: 3rem;
     font-weight: 600;
-
     box-sizing: border-box;
-
     box-shadow:
         0 3px 0 #000,
         0 4px 5px rgba(0, 0, 0, 0.25);
