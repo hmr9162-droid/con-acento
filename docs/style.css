@@ -48,7 +48,8 @@ body {
         display: flex; 
         justify-content: space-between; 
         align-items: flex-start; 
-        margin: 0; padding: 0; 
+        margin: 0; 
+		padding: 0; 
     } 
 
     .site-header img { 
@@ -58,12 +59,12 @@ body {
     } 
 
     .logo-left { 
-        height: 150px; 
+        height: 100px; 
 
     } 
 
     .logo-right { 
-        height: 150px; 
+        height: 100px; 
     }
 
 /* tab design and controls */ 
