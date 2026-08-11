@@ -8,7 +8,7 @@ p:not(:last-child) {
     grid-template-colums: 150px minmax (0,1fr);
     gap: 40px;
     width: calc(100% - 100px);
-    max-width: 1700px;
+    max-width: 1000px;
     margin: 100px 50px 4rem;
     align-items: start;
 }
@@ -31,9 +31,9 @@ body {
 .widget {
     border: 1px solid #ccc;
   	border-radius: 6px;
-  	box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  	box-shadow: 0 5px 12px rgba(0,0,0,0.15);
   	font-family: sans-serif;
-  	max-width: 400px;
+  	max-width: 600px;
     padding: 20px;
 	}
     
@@ -42,9 +42,9 @@ body {
     .site-header { 
         position: absolute; 
         top: 10px; 
-        left: 10px; 
-        right: 10px; 
-        width: 100%; 
+        left: 15px; 
+        right: 15px; 
+        width: 98%; 
         display: flex; 
         justify-content: space-between; 
         align-items: flex-start; 
@@ -59,12 +59,12 @@ body {
     } 
 
     .logo-left { 
-        height: 100px; 
+        height: 80px; 
 
     } 
 
     .logo-right { 
-        height: 100px; 
+        height: 80px; 
     }
 
 /* tab design and controls */ 
