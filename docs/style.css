@@ -7,8 +7,8 @@ p:not(:last-child) {
     display: grid;
     grid-template-colums: 150px minmax (0,1fr);
     gap: 40px;
-    width: calc(100% - 100px);
-    max-width: 1000px;
+    width: calc(100% - 200px);
+    max-width: 800px;
     margin: 100px 50px 4rem;
     align-items: start;
 }
@@ -33,7 +33,7 @@ body {
   	border-radius: 6px;
   	box-shadow: 0 5px 12px rgba(0,0,0,0.15);
   	font-family: sans-serif;
-  	max-width: 600px;
+  	max-width: 700px;
     padding: 20px;
 	}
     
@@ -48,8 +48,8 @@ body {
         display: flex; 
         justify-content: space-between; 
         align-items: flex-start; 
-        margin: 0; 
-		padding: 0; 
+        margin: 2px; 
+		padding: 2px; 
     } 
 
     .site-header img { 
@@ -59,12 +59,12 @@ body {
     } 
 
     .logo-left { 
-        height: 20px; 
+        height: 10px; 
 
     } 
 
     .logo-right { 
-        height: 20px; 
+        height: 10px; 
     }
 
 /* tab design and controls */ 
@@ -221,14 +221,14 @@ kbd {
 
 .accent-letter {
     font-size: 2rem;
-    font-weight: 200;
+    font-weight: 250;
 }
 
 /* Equal Sign */
 
 .equal-sign {
     font-size: 2rem;
-    font-weight: 200;
+    font-weight: 250;
 }
 
 /* Footer for created by and copyright */
