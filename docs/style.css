@@ -120,7 +120,7 @@ body {
     #tab2:checked ~ .tab-buttons label[for="tab2"], 
     #tab3:checked ~ .tab-buttons label[for="tab3"], 
     #tab4:checked ~ .tab-buttons label[for="tab4"] { 
-        background-color: #0000; 
+        background-color: #333; 
         color: white; border-color: #333; 
     
 }
