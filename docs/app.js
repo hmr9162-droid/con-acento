@@ -55,7 +55,7 @@ function startSequence() {
   document.getElementById("message").textContent = "tienes un minuto";
 
   setTimeout(() => {
-    document.getElementById("message").textContent = "comenzar";
+    document.getElementById("message").textContent = "comenza";
     beginGame();
   }, 2000);
 
@@ -107,7 +107,7 @@ document.addEventListener("keydown", (event) => {
 
       score++;
 
-      document.getElementById("puntos").textContent = puntos;
+      document.getElementById("points").textContent = points;
 
       item.textContent = randomLetter();
     }
@@ -134,31 +134,30 @@ function endGame() {
 }
 
 
-
 // la lista de puntuación altas o "maximos"
 
-function savePuntos() {
+function saveScore() {
 
-  let puntos =
-    JSON.parse(localStorage.getItem("highPuntos")) || [];
+  let points =
+    JSON.parse(localStorage.getItem("highScore")) || [];
 
 
-  puntos.push({
+  points.push({
     name: player.nombre,
     institution: player.institution,
     score: puntos
   });
 
 
-  puntos.sort((a,b)=> b.score - a.score);
+  points.sort((a,b)=> b.score - a.score);
 
 
-  puntos = puntos.slice(0,20);
+  points = points.slice(0,20);
 
 
   localStorage.setItem(
-    "highPuntos",
-    JSON.stringify(puntos)
+    "highScore",
+    JSON.stringify(points)
   );
 
 }
@@ -174,7 +173,7 @@ function displayScores() {
   board.innerHTML = "";
 
   let puntos =
-    JSON.parse(localStorage.getItem("highScores")) || [];
+    JSON.parse(localStorage.getItem("highScore")) || [];
 
 
   scores.forEach((player,index)=>{
@@ -182,8 +181,8 @@ function displayScores() {
     board.innerHTML += 
       <tr>
         <td>${index+1}</td>
-        <td>${player.puntos}</td>
-        <td>${player.institución}</td>
+        <td>${player.points}</td>
+        <td>${player.institution}</td>
       </tr>
     ;
 
@@ -191,4 +190,4 @@ function displayScores() {
 
 }
 
-displayPuntos();
+displayPoints();
