@@ -256,10 +256,4 @@ tr:hover .accent-letter {
 
 /* footer for created by and copyright */
 
-footer {
-    margin: 0 auto;
-    padding: 20rem;
-    font-family: sans-serif;
-    width: 100%;
-    font-size: 0.75rem;
-}
+
