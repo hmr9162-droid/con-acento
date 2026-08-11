@@ -92,7 +92,7 @@ body {
     grid-row: 1;
     display: flex; 
     flex-direction: column;
-    width: 80px;
+    width: 60px;
 
 }
 
@@ -121,7 +121,7 @@ body {
     #tab2:checked ~ .tab-buttons label[for="tab2"], 
     #tab3:checked ~ .tab-buttons label[for="tab3"], 
     #tab4:checked ~ .tab-buttons label[for="tab4"] { 
-        background-color: #333; 
+        background-color: #0000; 
         color: white; border-color: #333; 
     
 }
@@ -256,12 +256,10 @@ tr:hover .accent-letter {
 /* footer for created by and copyright */
 
 footer {
+	text-align: center;
 	margin: 0 auto;
-    display: flex;
     padding: 20rem;
 	font-family: sans-serif;
-  	max-width: 1200px;
 	width: 100%
-	text-align: center;
-    font-size: 0.5rem;
+    font-size: 0.75rem;
 }
