@@ -37,7 +37,7 @@ body {
     padding: 20px;
 	}
     
-/* Title header and logo design */ 
+/* title header and logo design */ 
 
     .site-header { 
         position: absolute; 
@@ -109,7 +109,7 @@ body {
     background-color: #f1f1f1; 
 }
 
-/* Active tab */ 
+/* active tab */ 
     
     #tab1:checked ~ .tab-buttons label[for="tab1"], 
     #tab2:checked ~ .tab-buttons label[for="tab2"], 
@@ -120,7 +120,7 @@ body {
     
 }
 
-/* Inside the tab contents */
+/* inside the tab contents */
 
     .tab-content-1, 
     .tab-content-2, 
@@ -139,7 +139,7 @@ body {
 
 }
 
-/* Letter block design */
+/* letter block design */
 
 ul {
     display: flex;
@@ -172,7 +172,7 @@ li {
     box-sizing: border-box;
 }
 
-/* Scoreboard table design */
+/* scoreboard table design */
 
 .score-table th,
 .score-table td {
@@ -187,7 +187,7 @@ li {
     border-collapse: collapse;
 }
 
-/* Keyboard keys */
+/* keyboard-like keys */
 
 kbd {
     display: inline-flex;
@@ -217,21 +217,21 @@ kbd {
         0 4px 5px rgba(0, 0, 0, 0.25);
 }
 
-/* Accent letters */
+/* las letras */
 
 .accent-letter {
     font-size: 2rem;
     font-weight: 250;
 }
 
-/* Equal Sign */
+/* equal sign */
 
 .equal-sign {
     font-size: 2rem;
     font-weight: 250;
 }
 
-/* Footer for created by and copyright */
+/* footer for created by and copyright */
 
 footer {
     display: flex;
