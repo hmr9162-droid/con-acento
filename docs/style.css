@@ -236,7 +236,8 @@ kbd {
 footer {
     display: flex;
     padding: 20rem;
+	font-family: sans-serif;
+  	max-width: 700px;
 	text-align: center;
     font-size: 0.5rem;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica" Arial, sans-serif;
 }
