@@ -20,17 +20,17 @@ $\color{#fcbe11}\text{Developed by Hayla Ragland and Emily Uruchima (Kichwa Kañ
 
 ## 𝐢𝐧𝐬𝐩𝐢𝐫𝐚𝐜𝐢ó𝐧 𝐲 𝐝𝐢𝐬𝐞ñ𝐨 𝐝𝐞 𝐩𝐫𝐨𝐲𝐞𝐜𝐭𝐨
 
-👤 | 𝐞𝐥𝐞𝐦𝐞𝐧𝐭𝐨𝐬 | 🔗 |
-|:--------------:|:----------------:|:----------------------------------------------------------:|
-@w3schools | `key press events`  | https://www.w3schools.com/jsref/event_onkeypress.asp 
-@CodeFonts | `duotone hover effect`  | https://codefronts.com/try/?c=css-hover-effects&d=css-gradient-text-reveal-hover-effect 
-@CodeLab | `key press events`  | https://www.youtube.com/watch?v=8__gPh2F8xM 
-@Injosoft | `ASCII generator` | https://www.asciiart.eu/image-to-ascii
-@OptimisticWeb | `placeholder text` | https://www.youtube.com/watch?v=8__gPh2F8xM  
-@talha | `typing game` |  https://he-is-talha.github.io/html-css-javascript-games/30-Typing-Game/
-@HenrikJoreteg | `key frame animation`  |  https://blog.andyet.com/2015/07/17/generating-css-keyframe-animations-with-javascript/
-@Taghmagazine | `bitmap font` | https://www.youtube.com/shorts/TULorU5MTYo?feature=share 
-@FontGen | `font generator` |https://fontgen.cool/
+| 🔗 | 📚
+|:--------------:|:----------------------------------------------------------:|
+[w3schools](https://www.w3schools.com/jsref/event_onkeypress.asp) | `key press events`
+[Code Fonts](https://codefronts.com/try/?c=css-hover-effects&d=css-gradient-text-reveal-hover-effect) |`duotone hover effect` 
+[Code Lab](https://www.youtube.com/watch?v=8__gPh2F8xM) `key press events`
+[Injosoft](https://www.asciiart.eu/image-to-ascii) | `ASCII generator`
+[Optimistic Web](https://www.youtube.com/watch?v=8__gPh2F8xM) | `placeholder text`
+[Talha](https://he-is-talha.github.io/html-css-javascript-games/30-Typing-Game/) |  `typing game`
+[Henrik Joreteg](https://blog.andyet.com/2015/07/17/generating-css-keyframe-animations-with-javascript/) | `key frame animation`
+[Tagh Magazine](https://www.youtube.com/shorts/TULorU5MTYo?feature=share) | `bitmap font`
+[FontGen](https://fontgen.cool/) | `font generator`
 
 
 ## 𝐥𝐢𝐜𝐞𝐧𝐜𝐢𝐚
