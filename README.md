@@ -24,7 +24,7 @@ $\color{#fcbe11}\text{Developed by Hayla Ragland and Emily Uruchima (Kichwa Kañ
 |:--------------:|:----------------------------------------------------------:|
 [w3schools](https://www.w3schools.com/jsref/event_onkeypress.asp) | `key press events`
 [Code Fonts](https://codefronts.com/try/?c=css-hover-effects&d=css-gradient-text-reveal-hover-effect) |`duotone hover effect` 
-[Code Lab](https://www.youtube.com/watch?v=8__gPh2F8xM) `key press events`
+[Code Lab](https://www.youtube.com/watch?v=8__gPh2F8xM) | `key press events`
 [Injosoft](https://www.asciiart.eu/image-to-ascii) | `ASCII generator`
 [Optimistic Web](https://www.youtube.com/watch?v=8__gPh2F8xM) | `placeholder text`
 [Talha](https://he-is-talha.github.io/html-css-javascript-games/30-Typing-Game/) |  `typing game`
