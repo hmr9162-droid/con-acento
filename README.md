@@ -6,14 +6,14 @@
 $\color{#fffff}\text{con acento es una guía de estudio, un zine, y un juego web cuyo objetivo es reforzar el compromiso de los bibliotecarios y archivistas para mitigar}$ 
 $\color{#fffff}\text{los errores de registro que (típicamente) involucran palavras y sustantivos propios que no están en inglés}$
 
-$\color{#C0C0C0}\text{con acento is a hybrid study guide and webgame which aims to reinforce librarians' and archivists' commitment to mitigating record keeping errors}$
-$\color{#C0C0C0}\text{which (typically) involve non-english names}$
+$\color{#A9A9A9}\text{con acento is a hybrid study guide and webgame which aims to reinforce librarians' and archivists' commitment to mitigating record keeping errors}$
+$\color{#A9A9A9}\text{which (typically) involve non-english names}$
 
 ## 𝐪𝐮𝐢𝐞𝐧𝐞𝐬
 
 $\color{#fffff}\text{Desarrollado por Hayla Ragland y Emily Uruchima (Kichwa Kañari)}$ 
 
-$\color{#C0C0C0}\text{Developed by Hayla Ragland and Emily Uruchima (Kichwa Kañari)}$ 
+$\color{#A9A9A9}\text{Developed by Hayla Ragland and Emily Uruchima (Kichwa Kañari)}$ 
 
 ## 𝐚𝐩𝐨𝐲𝐚 𝐞𝐬𝐭𝐞 𝐩𝐫𝐨𝐲𝐞𝐜𝐭𝐨
 
