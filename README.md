@@ -1,7 +1,7 @@
 
 # ¡𝐜𝐨𝐧 𝐚𝐜𝐞𝐧𝐭𝐨 𝐩𝐨𝐫 𝐅𝐀𝐕𝐎𝐑!
 
-*con acento* es una guía de estudio, un zine, y un juego web cuyo objetivo es reforzar el compromiso de los bibliotecarios y archivistas para mitigar los errores de registro que (típicamente) involucran palavras y sustantivos propios que no están en inglés
+*Con acento* es una guía de estudio, un zine, y un juego web cuyo objetivo es reforzar el compromiso de los bibliotecarios y archivistas para mitigar los errores de registro que (típicamente) involucran palavras y sustantivos propios que no están en inglés.
 
 ## 𝐞𝐥 𝐫𝐚𝐳𝐨𝐧𝐚𝐦𝐢𝐞𝐧𝐭𝐨
 
