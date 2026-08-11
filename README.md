@@ -7,7 +7,7 @@ $\color{#fffff}\text{Con acento es una guía de estudio, un zine, y un juego web
 $\color{#fffff}\text{los errores de registro que (típicamente) involucran palavras y sustantivos propios que no están en inglés.}$
 
 $\color{#fcbe11}\text{Con acento is a hybrid study guide and webgame which aims to reinforce librarians' and archivists' commitment to mitigating record keeping errors}$
-$\color{#fcbe11}\text{(typically) involving non-english names.}$
+$\color{#fcbe11}\text{which (typically) involve non-english names.}$
 
 ## 𝐪𝐮𝐢𝐞𝐧𝐞𝐬
 
