@@ -3,11 +3,11 @@
 
 ## 𝐞𝐥 𝐫𝐚𝐳𝐨𝐧𝐚𝐦𝐢𝐞𝐧𝐭𝐨
 
-$\color{#fffff}\text{Con acento es una guía de estudio, un zine, y un juego web cuyo objetivo es reforzar el compromiso de los bibliotecarios y archivistas para mitigar}$ 
-$\color{#fffff}\text{los errores de registro que (típicamente) involucran palavras y sustantivos propios que no están en inglés.}$
+$\color{#fffff}\text{con acento es una guía de estudio, un zine, y un juego web cuyo objetivo es reforzar el compromiso de los bibliotecarios y archivistas para mitigar}$ 
+$\color{#fffff}\text{los errores de registro que (típicamente) involucran palavras y sustantivos propios que no están en inglés}$
 
-$\color{#fcbe11}\text{Con acento is a hybrid study guide and webgame which aims to reinforce librarians' and archivists' commitment to mitigating record keeping errors}$
-$\color{#fcbe11}\text{which (typically) involve non-english names.}$
+$\color{#fcbe11}\text{con acento is a hybrid study guide and webgame which aims to reinforce librarians' and archivists' commitment to mitigating record keeping errors}$
+$\color{#fcbe11}\text{which (typically) involve non-english names}$
 
 ## 𝐪𝐮𝐢𝐞𝐧𝐞𝐬
 
