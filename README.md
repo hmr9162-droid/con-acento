@@ -11,6 +11,9 @@ $\color{#fcbe11}\text{which (typically) involve non-english names.}$
 
 ## 𝐪𝐮𝐢𝐞𝐧𝐞𝐬
 
+$\color{#fffff}\text{Desarrollado por Hayla Ragland y Emily Uruchima (Kichwa Kañari)}$ 
+
+$\color{#fcbe11}\text{Developed by Hayla Ragland and Emily Uruchima (Kichwa Kañari)}$ 
 
 ## 𝐚𝐩𝐨𝐲𝐚 𝐞𝐬𝐭𝐞 𝐩𝐫𝐨𝐲𝐞𝐜𝐭𝐨
 
