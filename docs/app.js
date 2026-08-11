@@ -143,9 +143,9 @@ function saveScore() {
 
 
   points.push({
-    name: player.nombre,
+    name: player.name,
     institution: player.institution,
-    score: puntos
+    score: points
   });
 
 
@@ -172,7 +172,7 @@ function displayScores() {
 
   board.innerHTML = "";
 
-  let puntos =
+  let points =
     JSON.parse(localStorage.getItem("highScore")) || [];
 
 
