@@ -5,13 +5,15 @@ p:not(:last-child) {
 
 .page-layout {
     display: grid;
-    grid-template-colums: 150px minmax (0,1fr);
+    grid-template-columns: 150px minmax (0,1fr);
     gap: 40px;
     width: calc(100% - 200px);
     max-width: 1200px;
     margin: 100px 50px 4rem;
     align-items: start;
-    
+
+}
+
 html, body {
     margin: 0;
     min-height: 100%;
@@ -237,12 +239,14 @@ kbd {
 /* hover-duotone animation for las letras */
 
 .accent-letter {
-  color: var(--text);
-  background-image: linear-gradient(135deg, #f43f5e, #f97316);
-  background-size: 100% 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  transition: color 0.4s, filter 0.4s;
+    font-size: 2rem;
+    font-weight: 250;
+    color: var(--text, black);
+    background-image: linear-gradient(135deg, #f43f5e, #f97316);
+    background-size: 100% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: color 0.4s, filter 0.4s;
 }
 
 tr:hover .accent-letter {
@@ -253,10 +257,10 @@ tr:hover .accent-letter {
 /* footer for created by and copyright */
 
 footer {
-	text-align: center;
-	margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
     padding: 20rem;
-	font-family: sans-serif;
-	width: 100%
+    font-family: sans-serif;
+    width: 100%;
     font-size: 0.75rem;
 }
