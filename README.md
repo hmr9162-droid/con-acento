@@ -20,6 +20,7 @@
 👤 | 𝐞𝐥𝐞𝐦𝐞𝐧𝐭𝐨𝐬 | 🔗 |
 |:--------------:|:----------------:|:----------------------------------------------------------:|
 @w3schools | `key press events`  | https://www.w3schools.com/jsref/event_onkeypress.asp 
+@CodeFonts | `duotone hover effect`  | https://codefronts.com/try/?c=css-hover-effects&d=css-gradient-text-reveal-hover-effect 
 @CodeLab | `key press events`  | https://www.youtube.com/watch?v=8__gPh2F8xM 
 @Injosoft | `ASCII generator` | https://www.asciiart.eu/image-to-ascii
 @OptimisticWeb | `placeholder text` | https://www.youtube.com/watch?v=8__gPh2F8xM  
