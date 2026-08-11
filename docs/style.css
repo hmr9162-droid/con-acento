@@ -209,8 +209,8 @@ kbd {
     align-items: center;
     justify-content: center;
 
-    min-width: 45px;
-    height: 42px;
+    min-width: 85px;
+    height: 82px;
 
     padding: 0 12px;
     margin: 3px;
@@ -235,14 +235,14 @@ kbd {
 /* equal sign */
 
 .equal-sign {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 250;
 }
 
 /* hover-duotone animation for las letras */
 
 .accent-letter {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 250;
     color: var(--text, black);
     background-image: linear-gradient(135deg, #f43f5e, #f97316);
