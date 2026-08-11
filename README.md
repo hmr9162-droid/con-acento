@@ -34,4 +34,4 @@ $\color{#fcbe11}\text{Developed by Hayla Ragland and Emily Uruchima (Kichwa Kañ
 
 
 ## 𝐥𝐢𝐜𝐞𝐧𝐜𝐢𝐚
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
