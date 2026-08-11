@@ -220,15 +220,15 @@ kbd {
 /* Accent letters */
 
 .accent-letter {
-    font-size: 10rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 200;
 }
 
 /* Equal Sign */
 
 .equal-sign {
-    font-size: 10rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 200;
 }
 
 /* Footer for created by and copyright */
