@@ -58,15 +58,19 @@ body {
         display: block; 
         height: auto; 
     
+		header img {
+			
     } 
 
     .logo-left { 
-        height: 10px; 
+  	   max-width: 20vw;
+       height: auto;
 
     } 
 
     .logo-right { 
-        height: 10px; 
+  	   max-width: 20vw;
+       height: auto;
     }
 
 /* tab design and controls */ 
