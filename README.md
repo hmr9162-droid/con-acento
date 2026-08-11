@@ -34,6 +34,4 @@ $\color{#fcbe11}\text{Developed by Hayla Ragland and Emily Uruchima (Kichwa Kañ
 
 
 ## 𝐥𝐢𝐜𝐞𝐧𝐜𝐢𝐚
-<a href="https://creativecommons.org" target="_blank" rel="noopener noreferrer">
-  <img src="https://creativecommons.org" alt="CC0 1.0 Universal" width="88" height="31">
-</a>
+
