@@ -231,6 +231,22 @@ kbd {
     font-weight: 250;
 }
 
+/* hover-duotone animation for las letras */
+
+.accent-letter {
+  color: var(--text);
+  background-image: linear-gradient(135deg, #f43f5e, #f97316);
+  background-size: 100% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: color 0.4s, filter 0.4s;
+}
+
+tr:hover .accent-letter {
+  color: transparent;
+  filter: hue-rotate(120deg) saturate(1.4);
+}
+
 /* footer for created by and copyright */
 
 footer {
