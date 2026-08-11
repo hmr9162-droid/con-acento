@@ -6,13 +6,17 @@ const items = document.querySelectorAll("li");
 
 let points = 0;
 let timeLeft = 60;
-let timer;
+let timer = null;
 let gameStarted = false;
+let gameStarting = false;
+
+// player information input
 
 let player = {
   nombre: "",
   institución: "",
 };
+
 
 function randomLetter() {
   return letters[Math.floor(Math.random() * letters.length)];
@@ -28,19 +32,20 @@ loadLetters();
 
 
 // press any key to start the game 
+
 document.addEventListener("keydown", (event) => {
 
     if (gameStarted) return;
 
-    player.nombre = document.getElementById("nombre").value;
+    player.name = document.getElementById("name").value;
 
     player.institución = document
-        .getElementById("institución")
+        .getElementById("institution")
         .value
         .toUpperCase()
         .substring(0, 3);
 
-    if (!player.nombre) {
+    if (!player.name) {
         document.getElementById("message").textContent =
             "escribe tu nombre primero";
         return;
