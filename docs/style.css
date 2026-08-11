@@ -101,13 +101,13 @@ body {
     grid-row: 1;
     display: flex; 
     flex-direction: column;
-    width: 75px;
+    width: 110px;
 
 }
 
 .tab-buttons label {
     display: block;
-    width: 90px;
+    width: 80px;
     box-sizing: border-box;
     padding: 3px 6px;
     margin: 8px 0;
