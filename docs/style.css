@@ -1,6 +1,6 @@
 /* conacento style.css */
 p:not(:last-child) {
-    margin-block-end: 2em;
+    margin-block-end: 1em;
 }
 
 .page-layout {
@@ -11,7 +11,6 @@ p:not(:last-child) {
     max-width: 1200px;
     margin: 100px 50px 4rem;
     align-items: start;
-}
     
 html, body {
     margin: 0;
