@@ -85,10 +85,11 @@ body {
 /* tab design and controls */ 
 
 .tabs {
-  	padding: 8px 18px;
-  	white-space: nowrap;
+    display: grid;
+    grid-template-columns: 150px minmax(0, 1fr); 
+    column-gap: 40px; 
+    width: 100%;
 }
-
 
 .tabs input[type="radio"] {
     display: none;
@@ -99,21 +100,20 @@ body {
     grid-row: 1;
     display: flex; 
     flex-direction: column;
-    width: 150px;
-	padding: 10px 20px;
-	box-sizing: border-box;
+    width: 50px;
 
 }
 
 .tab-buttons label {
     display: block;
-    width: 75px;
-	font-size: 18;
-    margin: auto;
+    width: 300px;
+    box-sizing: border-box;
+    padding: 3px 6px;
+    margin: 8px 0;
     background-color: white;
     color: black;
     border: 1px solid #ddd;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     transition: all 0.5s ease;
     text-align: center;
@@ -247,7 +247,5 @@ tr:hover .accent-letter {
   color: transparent;
   filter: hue-rotate(120deg) saturate(1.4);
 }
-
-/* footer for created by and copyright */
 
 
