@@ -114,7 +114,7 @@ body {
     background-color: white;
     color: black;
     border: 1px solid #ddd;
-    border-radius: 40px;
+    border-radius: 50rem;
     cursor: pointer;
     transition: all 0.5s ease;
     text-align: center;
