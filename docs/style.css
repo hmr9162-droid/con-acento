@@ -87,6 +87,7 @@ body {
 .tabs {
     margin-top: 175px;
     display: grid;
+	padding: 8px 8px;
     grid-template-columns: 150px minmax(0, 1fr); 
     column-gap: 40px; 
     width: 100%;
