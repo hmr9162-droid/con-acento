@@ -155,24 +155,27 @@ body {
 
 /* short cut tables */
 
-.shortcut-table {
+.tab-content-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 30px;
     width: 100%;
+    box-sizing: border-box;
 }
 
-.shortcut-table th,
-.shortcut-table td {
-    border: 0px 
-    padding: 8px;
-    text-align: center;
+.shortcut-column {
+    min-width: 0;
 }
 
-.download-table th {
-    background: #000080;
-    color: white;
+.shortcut-column h3 {
+    margin-top: 0;
 }
+
+.shortcut-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
 
 /* letter block design */
 
