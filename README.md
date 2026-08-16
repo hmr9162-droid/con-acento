@@ -1,7 +1,7 @@
 
 # $\color{#D9D9D9}\text{¡con acento por FAVOR!}$ 
 
-## 𝐞𝐥 𝐫𝐚𝐳𝐨𝐧𝐚𝐦𝐢𝐞𝐧𝐭𝐨
+## $\color{#D9D9D9}\text{𝐞𝐥 𝐫𝐚𝐳𝐨𝐧𝐚𝐦𝐢𝐞𝐧𝐭𝐨}$
 
 $\color{#fffff}\text{con acento es una guía de estudio, un zine, y un juego web cuyo objetivo es reforzar el compromiso de los bibliotecarios y archivistas para mitigar}$ 
 $\color{#fffff}\text{los errores de registro que (típicamente) involucran palavras y sustantivos propios que no están en inglés}$
@@ -9,16 +9,15 @@ $\color{#fffff}\text{los errores de registro que (típicamente) involucran palav
 $\color{#A9A9A9}\text{con acento is a hybrid study guide and webgame which aims to reinforce librarians' and archivists' commitment to mitigating record keeping errors}$
 $\color{#A9A9A9}\text{which (typically) involve non-english names}$
 
-## 𝐪𝐮𝐢𝐞𝐧𝐞𝐬
+## $\color{#D9D9D9}\text{𝐪𝐮𝐢𝐞𝐧𝐞𝐬}$
 
 $\color{#fffff}\text{Desarrollado por Hayla Ragland y Emily Uruchima (Kichwa Kañari)}$ 
 
 $\color{#A9A9A9}\text{Developed by Hayla Ragland and Emily Uruchima (Kichwa Kañari)}$ 
 
-## 𝐚𝐩𝐨𝐲𝐚 𝐞𝐬𝐭𝐞 𝐩𝐫𝐨𝐲𝐞𝐜𝐭𝐨
+## $\color{#D9D9D9}\text{𝐚𝐩𝐨𝐲𝐚 𝐞𝐬𝐭𝐞 𝐩𝐫𝐨𝐲𝐞𝐜𝐭𝐨}$
 
-
-## 𝐢𝐧𝐬𝐩𝐢𝐫𝐚𝐜𝐢ó𝐧 𝐲 𝐝𝐢𝐬𝐞ñ𝐨 𝐝𝐞 𝐩𝐫𝐨𝐲𝐞𝐜𝐭𝐨
+## $\color{#D9D9D9}\text{𝐢𝐧𝐬𝐩𝐢𝐫𝐚𝐜𝐢ó𝐧 𝐲 𝐝𝐢𝐬𝐞ñ𝐨 𝐝𝐞 𝐩𝐫𝐨𝐲𝐞𝐜𝐭𝐨}$ 
 
 | 🔗 | 📚
 |:--------------:|:----------------------------------------------------------:|
@@ -33,5 +32,7 @@ $\color{#A9A9A9}\text{Developed by Hayla Ragland and Emily Uruchima (Kichwa Kañ
 [FontGen](https://fontgen.cool/) | `font generator`
 
 
-## 𝐥𝐢𝐜𝐞𝐧𝐜𝐢𝐚
+
+## $\color{#D9D9D9}\text{𝐥𝐢𝐜𝐞𝐧𝐜𝐢𝐚}$
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
