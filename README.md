@@ -1,5 +1,5 @@
 
-# ¡𝐜𝐨𝐧 𝐚𝐜𝐞𝐧𝐭𝐨 𝐩𝐨𝐫 𝐅𝐀𝐕𝐎𝐑!
+# $\color{#D9D9D9}\text{¡con acento por FAVOR!}$ 
 
 ## 𝐞𝐥 𝐫𝐚𝐳𝐨𝐧𝐚𝐦𝐢𝐞𝐧𝐭𝐨
 
