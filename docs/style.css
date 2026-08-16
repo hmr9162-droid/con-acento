@@ -176,6 +176,14 @@ body {
     border-collapse: collapse;
 }
 
+/* stack tables on iphone */
+
+@media (max-width: 600px) {
+    .tab-content-2 {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
 
 /* letter block design */
 
