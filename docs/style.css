@@ -153,6 +153,27 @@ body {
 
 }
 
+/* short cut tables */
+
+.shortcut-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+}
+
+.shortcut-table th,
+.shortcut-table td {
+    border: 0px 
+    padding: 8px;
+    text-align: center;
+}
+
+.download-table th {
+    background: #000080;
+    color: white;
+}
+
 /* letter block design */
 
 ul {
